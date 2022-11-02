@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card{
+
+  }
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+html{
+
+  width: 100vw;
+
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+
+}
+
+.container{
+
+width: 100%;
+margin: 0 auto;
+display: flex;
+
+
+}
+
+h1{
+
+  text-align: center;
+margin: 0 auto;
+}
+
+h2{
+
+  text-align: center;
+
+  margin-top: 40px;
+  align-items: center;
+}
+
+
+div.second{
+  display: block;
+
+}
+
+div.image{
+  display: flex;
+
+
+}
+
+
+img{
+display: block;
+  width: 250px;
+ margin: 0 auto;
+ height: 250px;
+ border-radius: 50%;
+
+
+}
+
+
+
+
+div.liste{
+  width: 50%;
+
+  margin: 0 auto;
+
+
+
+
+}
+
+ul{
+text-align: center;
+list-style: none;
+}
+
+li{
+
+  object-fit: fit;
+}
+
+div.icon{
+
+
+  text-align: center;
+}
+i{
+  color: blue;
+}
+
+span a{
+
+  text-decoration: none;
+  color: red;
+}
+
+
+.card{
+
+  border: 1px solid lightgrey;
+  width: 30%;
+  margin: 5px;
+}
+
+.fa-rocket{
+
+  padding-left: 5px;
+  color: #e25822;
+}
